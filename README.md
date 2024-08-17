@@ -1,4 +1,4 @@
-# SpringQuizBack
+# SpringQuiz Robust: A Comprehensive Spring Boot Quiz Application to perform comprehensive task and organize a quiz while reducing latency
 
 **Spring Boot Quiz Application**
 **Overview**
