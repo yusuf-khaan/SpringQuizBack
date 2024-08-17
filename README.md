@@ -14,6 +14,7 @@ _this payload as the name suggest is to create a quiz of particular category ava
   "title": "Sample Title",
   "NumberOfQuestions": 10
 }
+```
 
 **2. noOfQs JSON Payload**
 _This payload is for fun to explore the datastructures I made, I have other controller where you can just pass the Integer Value as No. Of Questions you want, Its Wholly randomly created Quiz from database to maintain versatility_
@@ -21,7 +22,7 @@ _This payload is for fun to explore the datastructures I made, I have other cont
 {
   "numberOfQuestions": 5
 }
-
+```
 **3. Questions JSON Payload**
 _This payload defines the Database Structure where the data is stored_
 ```json
@@ -35,7 +36,7 @@ _This payload defines the Database Structure where the data is stored_
   "option3": "Option 3",
   "rightanswer": "Option 1"
 }
-
+```
 **4. ScheduleNukeDBS JSON Payload**
 _As the name suggest it schedules a nuke, just Kidding! This quiz schedules a quiz which your teach might have created before from Original database and want you to give this quiz, In my controller there is a option to Schedule Quiz as Schedule/NukeTime which creates a quiz on basis of category you want and which utilizes banaoQuiz Data Struct_
 ```json
@@ -65,7 +66,7 @@ _As the name suggest it schedules a nuke, just Kidding! This quiz schedules a qu
     }
   ]
 }
-
+```
 **Key Features**
 Quiz Management: Easily create, update, and delete quizzes with a variety of question types.
 Category-Based Quizzes: Organize quizzes into categories, allowing users to focus on specific topics or areas of interest.
