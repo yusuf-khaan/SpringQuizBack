@@ -8,21 +8,23 @@ The Spring Boot Quiz Application is a dynamic and interactive platform designed 
 Below are the payloads of representation of data when deserialized into Java Objects
 **1. banaoQuiz JSON Payload**
 _this payload as the name suggest is to create a quiz of particular category available in the database which is user oriented as to what he prefer like Java, Python , IBM Quiz questions or any as per the Database_
-**
+```json
 {
   "category": "Sample Category",
   "title": "Sample Title",
   "NumberOfQuestions": 10
 }
-**
+
 **2. noOfQs JSON Payload**
 _This payload is for fun to explore the datastructures I made, I have other controller where you can just pass the Integer Value as No. Of Questions you want, Its Wholly randomly created Quiz from database to maintain versatility_
+```json
 {
   "numberOfQuestions": 5
 }
 
 **3. Questions JSON Payload**
 _This payload defines the Database Structure where the data is stored_
+```json
 {
   "id": 1,
   "category": "Sample Category",
@@ -36,6 +38,7 @@ _This payload defines the Database Structure where the data is stored_
 
 **4. ScheduleNukeDBS JSON Payload**
 _As the name suggest it schedules a nuke, just Kidding! This quiz schedules a quiz which your teach might have created before from Original database and want you to give this quiz, In my controller there is a option to Schedule Quiz as Schedule/NukeTime which creates a quiz on basis of category you want and which utilizes banaoQuiz Data Struct_
+```json
 {
   "id": 1,
   "Title": "Sample Schedule Title",
