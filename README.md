@@ -8,12 +8,13 @@ The Spring Boot Quiz Application is a dynamic and interactive platform designed 
 Below are the payloads of representation of data when deserialized into Java Objects
 **1. banaoQuiz JSON Payload**
 _this payload as the name suggest is to create a quiz of particular category available in the database which is user oriented as to what he prefer like Java, Python , IBM Quiz questions or any as per the Database_
+**
 {
   "category": "Sample Category",
   "title": "Sample Title",
   "NumberOfQuestions": 10
 }
-
+**
 **2. noOfQs JSON Payload**
 _This payload is for fun to explore the datastructures I made, I have other controller where you can just pass the Integer Value as No. Of Questions you want, Its Wholly randomly created Quiz from database to maintain versatility_
 {
